@@ -5,8 +5,6 @@
 package main
 
 import (
-	//"compress/lzma"
-	"code.google.com/p/lzma"
 	"flag"
 	"fmt"
 	"io"
@@ -15,6 +13,8 @@ import (
 	"path"
 	"runtime"
 	"strings"
+
+	"github.com/shihanng/lzma"
 )
 
 var (
